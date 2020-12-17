@@ -1,1 +1,1 @@
-(()=>{const e=document.querySelector(".trigger");e.addEventListener("click",(()=>{e.classList.toggle("clicked")}));const t=document.querySelector(".nav-btn"),c=document.querySelector(".drop-down");t.addEventListener("click",(()=>{c.classList.toggle("visible")}))})();
+(()=>{const e=document.querySelector(".mobile-nav-btn"),t=document.querySelector(".mobile-nav-drop");e.addEventListener("click",(()=>{t.classList.toggle("visible")}))})();

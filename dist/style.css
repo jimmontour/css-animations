@@ -1,3 +1,5 @@
+
+
 body {
     padding: 50px;
 }
@@ -55,4 +57,55 @@ body {
 .visible {
     display: inline-block;
     opacity: 100%
+}
+
+.phone {
+    height: 518px;
+    width: 326px;
+    border: 1px black solid;
+    margin-bottom: 50px;
+}
+
+.mobile-nav-btn { 
+    position: absolute;
+    top: 475px;
+    left: 290px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    background-color: red;
+    border-radius: 100px;
+    padding: 10px 10px 20px 10px
+}
+
+.mobile-nav-btn:hover {
+    box-shadow: 2px 2px;
+}
+
+.mobile-nav-drop {
+    position: absolute;
+    top: 275px;
+    left: 225px;
+    background-color: lightcoral;
+    width: 150px;
+    height: auto;
+    font-size: 24px;
+    color: white;
+    display: none;
+}
+
+.mobile-nav-drop div {
+    border-bottom: white 2px solid;
+    padding: 5px;
+}
+
+.mobile-nav-drop div:hover {
+    color: yellow
+}
+
+.visible {
+    display: inline-block;
 }

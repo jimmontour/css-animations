@@ -13,13 +13,14 @@
     "url": "git+https://github.com/jimmontour/css-animations.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Jim Montour jimmontour@gmail.com (http://jimmontour.com)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jimmontour/css-animations/issues"
   },
   "homepage": "https://github.com/jimmontour/css-animations#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "webpack": "^5.10.3",
     "webpack-cli": "^4.2.0"
   },
