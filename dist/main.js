@@ -1,0 +1,1 @@
+(()=>{const e=document.querySelector(".trigger");e.addEventListener("click",(()=>{e.classList.toggle("clicked")}))})();
